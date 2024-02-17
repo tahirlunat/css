@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form | html-css</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        input{
+            margin: 3px;
+        }
+
+        /* form start  */
+
+        .form{
+            width: 60%;
+            margin: 0 auto;
+            background-color: cyan;
+        }
+        .form h3{
+            color: red;
+            font-size: 20px;
+            padding: 8px;
+            text-align: center;
+        }
+
+        /* form end  */
+
+        /* main start  */
+
+        .main{
+            width: 60%;
+            margin: 0 auto;
+            background-color: rgba(22, 242, 242, 0.273);
+        }
+
+        /* main end  */
+
+        /*  user start  */
+
+        .main .user h3{
+            margin: 10px;
+            color: red;
+        }
+        .main .info{
+            display: flex;
+            justify-content: center;
+        }
+        .main .info .lf h5{
+            text-align: right;
+            margin: 8px;
+        }
+        .main .info .rt{
+            display: flex;
+            flex-direction: column;
+        }
+
+        /*  user end  */
+
+        /*  personal start  */
+
+        .main .personal{
+            color: red;
+            margin: 10px;
+        }
+
+        .main .maininfo{
+            display: flex;
+            justify-content: space-around;
+        }
+        .maininfo .info1{
+            display: flex;
+        }
+        .main .maininfo .info1 .lf h5{
+            text-align: right;
+            margin: 8px;
+        }
+        .main .maininfo .info1 .rt{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .maininfo .info2{
+            display: flex;
+        }
+        .main .maininfo .info2 .lf h5{
+            text-align: right;
+            margin: 8px;
+        }
+        .main .maininfo .info2 .rt{
+            display: flex;
+            flex-direction: column;
+        }
+
+        /*  personal end  */
+
+        /*  account start  */
+
+        .main .account{
+            color: red;
+            margin: 10px;
+        }
+
+        .main .mainacc{
+            display: flex;
+            justify-content: space-around;
+        }
+        .main .mainacc .acc1{
+            display: flex;
+        }
+        .main .mainacc .acc1 .lf h5{
+            text-align: right;
+            margin: 8px;
+        }
+        .main .mainacc .acc1 .rt{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main .mainacc .acc2{
+            display: flex;
+        }
+        .main .mainacc .acc2 .lf h5{
+            text-align: right;
+            margin: 8px;
+        }
+        .main .mainacc .acc2 .rt{
+            display: flex;
+            flex-direction: column;
+        }
+
+        /*  account end  */
+
+        /*  declaration start  */
+
+        .main .declaration h3{
+            color: red;
+            margin: 10px;
+        }
+        .main .decpara{
+            margin: 10px;
+        }
+        
+        /*  declaration end  */
+
+        /*  button start  */
+
+        .main .button{
+            width: 15%;
+            margin: 20px auto;
+        }
+        .main .button input{
+            color: white;
+            background-color: rgb(0, 110, 255);
+            padding: 3px 5px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        /* button end  */
+    </style>
+</head>
+<body>
+
+    <div class="form">
+        <h3>Individual Registration</h3>
+    </div>
+
+    <div class="main">
+
+        <!-- user start  -->
+        <div class="user">
+            <h3>User Particular</h3>
+        </div>
+        <div class="info">
+            <div class="lf">
+            <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Login id </h5>
+            <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Password </h5>
+            <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Confirm Password </h5>
+            </div>
+            <div class="rt">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </div>
+        </div>
+        <!-- user end  -->
+
+        <!-- personal start  -->
+        <div class="personal">
+            <h3>Personal Particular</h3>
+        </div>
+        <div class="maininfo">
+             <div class="info1">
+                <div class="lf">
+                    <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Salutation </h5>
+                    <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Middle Name </h5>
+                    <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Resident Status</h5>
+                    <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Email-id </h5>
+                </div>  
+                <div class="rt">
+                   <input type="text">
+                   <input type="text">
+                   <input type="text">
+                   <input type="text">
+                </div>  
+             </div>
+            <div class="info2">
+                <div class="lf">
+                    <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>First Name </h5>
+                    <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Last Name</h5>
+                    <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Country </h5>
+                    <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Mobile no. </h5>
+                </div>
+                <div class="rt">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                </div>
+             </div>
+         </div>
+         <!-- personal end  -->
+
+        <!-- account start  -->
+        <div class="account">
+            <h3>Account Particulars</h3>
+        </div>
+
+        <div class="mainacc">
+            <div class="acc1">
+                <div class="lf">
+                    <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>15 Digit Account no. </h5>
+                    <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Fund Transfer </h5>
+                </div>
+                <div class="rt">
+                    <input type="text">
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="acc2">
+                <div class="lf">
+                    <h5><i class="fa-solid fa-star-of-life fa-2xs" style="color: #ff0a0a;"></i>Nickname </h5>
+                </div>
+                <div class="rt">
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+        <!-- account end  -->
+        
+        <!-- declaration start  -->
+        <div class="declaration">
+            <h3>declaration</h3>
+        </div>
+        <div class="decpara">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque delectus quo velit sed earum odio sequi labore hic tenetur! Suscipit asperiores veritatis vel repellat? Quaerat error iste reprehenderit est molestiae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda alias voluptates blanditiis veritatis aperiam eius voluptas dignissimos labore vel molestiae. Voluptatem veritatis officiis nostrum recusandae quo dolorum, error, nam voluptas iste excepturi tempore autem aut eaque ducimus illum distinctio architecto.
+            </p>
+        </div>
+        <!-- declaration end  -->
+
+        <!-- button start  -->
+        <div class="button">
+            <input type="button" value="submit">
+            <input type="button" value="reset">
+        </div>
+        <!-- button end -->
+
+    </div>
+  
+</body>
+</html>
